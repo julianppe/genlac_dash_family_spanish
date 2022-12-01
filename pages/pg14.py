@@ -14,6 +14,8 @@ dash.register_page(__name__,
 
 
 # page 1 data
+data='Bolivia'
+
 df = pd.read_csv("datasets/cuidado_ninos.csv")
 df['indicador'] = df['indicador'].astype(str)
 df['pais'] = df['pais'].astype(str)
